@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Happy Diwali 2025 ✨</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
   <style>
     body {
       margin: 0;
@@ -63,6 +63,18 @@
       box-shadow: 0 0 25px rgba(255,255,255,0.4);
     }
 
+    .quote {
+      font-size: 1.2rem;
+      font-weight: 500;
+      padding: 20px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      width: 80%;
+      margin: 20px auto;
+      box-shadow: 0 0 10px rgba(255,255,255,0.2);
+      animation: fadeIn 3s ease;
+    }
+
     footer {
       padding: 30px 10px;
       font-size: 0.9rem;
@@ -74,19 +86,40 @@
   <header>
     <h1>🪔 Happy Diwali 2025 🪔</h1>
     <h2>Wishing you joy, light, and prosperity this festive season!</h2>
-    <div class="animation">
-      <lottie-player src="https://lottie.host/2a186f2e-b2b3-4c3b-98d8-1f6ce531ac73/YOaGf5CFfZ.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; margin:auto;"  loop autoplay></lottie-player>
-    </div>
+    <!-- <div class="animation" id="lottie-container" style="width:300px;height:300px;margin:auto;"></div> -->
   </header>
 
+  <section class="quote">
+    <p>"Floor 3 rocks — where the brightest sparks shine the loudest! 💥 Here's to our awesome team that truly deserves to win! Wishing all employees a Diwali full of joy, success, and light! 🪔✨"</p>
+  </section>
+
   <section class="gallery">
-    <img src="https://images.unsplash.com/photo-1603575449290-9a4790c7a7d8?auto=format&fit=crop&w=800&q=80" alt="Diwali Diyas">
-    <img src="https://images.unsplash.com/photo-1603052875368-9c3c7d02b44f?auto=format&fit=crop&w=800&q=80" alt="Lights Festival">
-    <img src="https://images.unsplash.com/photo-1573575154689-1cde6f0a70cb?auto=format&fit=crop&w=800&q=80" alt="Rangoli Art">
+    <img src="assets/Image (1).jpg" alt="">
+    <img src="assets/Image (2).jpg" alt="">
+    <img src="assets/Image (3).jpg" alt="">
+    <img src="assets/Image.jpg" alt="">
+    <img src="assets/Media (1).jpg" alt="">
+    <img src="assets/Media (2).jpg" alt="">
+    <img src="assets/Media (3).jpg" alt="">
+    <img src="assets/Media (4).jpg" alt="">
+    <img src="assets/Media (5).jpg" alt="">
+    <img src="assets/Media (6).jpg" alt="">
+    <img src="assets/Media (7).jpg" alt="">
+    <img src="assets/Media.jpg" alt="">
   </section>
 
   <footer>
     <p>Made with ❤️ to spread festive joy | © 2025 Diwali Wishes</p>
   </footer>
+
+  <!-- <script>
+    lottie.loadAnimation({
+      container: document.getElementById('lottie-container'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'https://assets7.lottiefiles.com/packages/lf20_zm70nnqs.json'
+    });
+  </script> -->
 </body>
 </html>
